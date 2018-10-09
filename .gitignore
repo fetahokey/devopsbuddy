@@ -24,6 +24,9 @@
 /nbdist/
 /.nb-gradle/
 
-target
+devopsbuddy.iml
 .idea
-*.iml
+.mvn
+/.idea/
+/.mvn/
+/target/
