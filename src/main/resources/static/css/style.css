@@ -1,8 +1,62 @@
 body {
-    padding-top: 60px;
+    padding-top: 120px;
+
+    /* Courteasy of uigradients.com */
+    background: #085078;
+    background: -webkit-linear-gradient(to left,#085078, #85D8CE);
+    background: linear-gradient(to left,#085078, #85D8CE);
 }
 
 .starter-template {
     padding: 40px 15px;
     text-align: center;
+}
+
+/* MARKETING CONTENT
+    -------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .span4 {
+    text-align: center;
+}
+.marketing h2 {
+    font-weight: normal;
+}
+.marketing .span4 p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.member-title {
+    color: #f0f8ff;
+}
+
+/* Featurettes
+    ------------------------- */
+
+.featurette-divider {
+    margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+.featurette {
+    padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+    overflow: hidden; /* Vertically center images part 2: clear their floats. */
+}
+.featurette-image {
+    margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+}
+
+/* Give some space on the sides of the floated elements so text doesn't run right into it. */
+.featurette-image.pull-left {
+    margin-right: 40px;
+}
+.featurette-image.pull-right {
+    margin-left: 40px;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
 }
