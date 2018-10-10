@@ -10,12 +10,6 @@ public class FeedbackPojo implements Serializable {
     private String lastName;
     private String feedback;
 
-//    public FeedbackPojo(String email, String firstName, String lastName) {
-//        this.email = email;
-//        this.firstName = firstName;
-//        this.lastName = lastName;
-//    }
-
     public String getEmail() {
         return email;
     }
