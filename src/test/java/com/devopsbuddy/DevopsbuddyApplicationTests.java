@@ -15,7 +15,7 @@ public class DevopsbuddyApplicationTests {
 	private I18NService i18NService;
 
 	@Test
-	public void testMessageByLocaleService() throws Exception{
+	public void ltestMessageByLocaleService() throws Exception{
 		String expectedResult = "Bootstrap starter template";
         String messageId = "index.main.callout";
         String actual = i18NService.getMessage(messageId);
