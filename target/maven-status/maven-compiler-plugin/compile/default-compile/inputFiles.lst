@@ -1,1 +1,17 @@
+H:\dev\devopsbuddy\src\main\java\com\devopsbuddy\web\controllers\CopyController.java
+H:\dev\devopsbuddy\src\main\java\com\devopsbuddy\web\controllers\IndexController.java
+H:\dev\devopsbuddy\src\main\java\com\devopsbuddy\config\TemplateEngineConfig.java
 H:\dev\devopsbuddy\src\main\java\com\devopsbuddy\DevopsbuddyApplication.java
+H:\dev\devopsbuddy\src\main\java\com\devopsbuddy\config\SecurityConfig.java
+H:\dev\devopsbuddy\src\main\java\com\devopsbuddy\config\I18NConfig.java
+H:\dev\devopsbuddy\src\main\java\com\devopsbuddy\backend\service\EmailService.java
+H:\dev\devopsbuddy\src\main\java\com\devopsbuddy\backend\service\SmtpMailService.java
+H:\dev\devopsbuddy\src\main\java\com\devopsbuddy\config\ProductionConfig.java
+H:\dev\devopsbuddy\src\main\java\com\devopsbuddy\web\controllers\ContactController.java
+H:\dev\devopsbuddy\src\main\java\com\devopsbuddy\web\controllers\LoginController.java
+H:\dev\devopsbuddy\src\main\java\com\devopsbuddy\config\DevelopementConfig.java
+H:\dev\devopsbuddy\src\main\java\com\devopsbuddy\web\domain\frontend\FeedbackPojo.java
+H:\dev\devopsbuddy\src\main\java\com\devopsbuddy\web\controllers\PayloadController.java
+H:\dev\devopsbuddy\src\main\java\com\devopsbuddy\backend\service\FatehEmailService.java
+H:\dev\devopsbuddy\src\main\java\com\devopsbuddy\web\i18n\I18NService.java
+H:\dev\devopsbuddy\src\main\java\com\devopsbuddy\backend\service\AbstractEmailService.java

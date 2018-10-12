@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
 
 <body>
     <div th:fragment="common-navbar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -27,7 +27,14 @@
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <!--<li><a th:href="@{/login}" th:text="#{navbar.login.text}"></a></li>-->
-                    <li th:if="${#authorization.expression('isAuthenticated()')}">
+
+                    <!--
+
+                        th:if="${#authorization.expression('!isAuthenticated'())}"
+                                            same as
+                                sec:authorize="isAuthenticated()"
+                    -->
+                    <li th:if="${#authorization.expression('!isAuthenticated()')}"   >
                         <a th:href="@{/login}" th:text="#{navbar.login.text}"/>
                     </li>
                     <li th:if="${#authorization.expression('isAuthenticated()')}">
